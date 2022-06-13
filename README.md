@@ -25,7 +25,7 @@ placeLog.addPlace(testPlace);\
 placeLog.places;\
 Expected Output: {Qingdao: Place}
 
-Test: "It should return an object contains the testPlace object with an unique ID"\
+Test: "It should return an object contains the testPlace object with an unique ID 1"\
 Code:\
 let placeLog = new PlaceLog();\
 let testPlace = new Place("Qingdao", ["May Fourth Square", "Qingdao Beer Museum", "Mt. Laoshan"], "2017", "Business travl");\
