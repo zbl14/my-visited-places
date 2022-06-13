@@ -1,3 +1,24 @@
+# My Visited Places
+
+#### By Zhibin Liang
+
+#### A webpage show the places Zhibin has been visited
+
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+
+## Setup/Installation Requirements
+
+1. Clone the repo
+    ```sh
+    git clone (https://github.com/zbl14/my-visited-places.git)
+    ```
+2. Open index.html file
+
+## TDD
 ```sh
 Describe Place()
 ```
@@ -32,3 +53,13 @@ let testPlace = new Place("Qingdao", ["May Fourth Square", "Qingdao Beer Museum"
 placeLog.addPlace(testPlace);\
 placeLog.places;\
 Expected Output: {1: Place}
+
+## Known Bugs
+
+* None
+
+## License
+
+MIT
+
+Copyright &copy; 2022 Zhibin Liang
