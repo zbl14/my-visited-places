@@ -13,7 +13,13 @@ Describe PlaceLog()
 ```
 Test: "It should return an empty PlaceLog object"\
 Code:\
-PlaceLog();\
-let placeLog = new PlaceLog;\
+let placeLog = new PlaceLog();\
 PlaceLog;\
 Expected Output: PlaceLog {places: {…}}
+
+Test: "It should return an object contains the testPlace object"\
+Code:\
+let testPlace = new Place("Qingdao", ["May Fourth Square", "Qingdao Beer Museum", "Mt. Laoshan"], "2017", "Business travl");\
+placeLog.addPlace(testPlace);\
+placeLog.places;\
+Expected Output: {Qingdao: Place}
